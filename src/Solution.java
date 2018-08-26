@@ -4,23 +4,32 @@ import java.io.IOException;
 import java.util.*;
 
 public class Solution {
-    static class Edge{
-        int tail;
-        int head;
+    static class Node{
+        int value;
         int weight;
-
-        public Edge(int tail, int head, int weight){
-            this.tail = tail;
-            this.head = head;
-            this. weight = weight;
+        Node(int value, int weight){
+            this.value = value;
+            this.weight = weight;
         }
     }
+    static class Vertex{
+        int value;
+        LinkedList<Node> edges;
+        Vertex(int value){
+            this.value = value;
+            edges = new LinkedList<>();
+        }
+        void addNode(Node node){
+            edges.add(node);
+        }
+    }
+
     static class Graph{
-        ArrayList<Edge> edges;
+        ArrayList<Vertex> vertices;
         int[] shortestPath;
 
         public Graph(String filname, int num_vertices){
-            edges = new ArrayList<>();
+            vertices = new ArrayList<>();
             shortestPath = new int[num_vertices];
             initGraph(filname);
         }
@@ -33,39 +42,51 @@ public class Solution {
                     int from = Integer.parseInt(items[0]);
                     int to;
                     int weight;
+                    Vertex vertex = new Vertex(from);
                     for(int i=1;i<items.length;i++){
                         String[] e = items[i].split(",");
                         to = Integer.parseInt(e[0]);
                         weight = Integer.parseInt(e[1]);
-                        addEdge(from, to, weight);
+                        vertex.addNode(new Node(to, weight));
                     }
+                    vertices.add(vertex);
                 }
             } catch (IOException e) {
                 e.printStackTrace();
             }
         }
-        void addEdge(int from, int to, int weight){
-            edges.add(new Edge(from, to, weight));
-        }
 
         public int[] Dijkstra(int startingVertex){
             HashSet<Integer> X = new HashSet<>();
+            MinHeap heap = new MinHeap(shortestPath.length);
+            HashMap<Integer, Integer> labelToIndex = new HashMap<>();
+            HashMap<Integer, Integer> indexToLabel = new HashMap<>();
+            Vertex v = vertices.get(startingVertex-1);
+            for(Node node:v.edges){
+                int index = heap.insert(node.weight, labelToIndex, indexToLabel);
+                labelToIndex.put(node.value, index);
+                indexToLabel.put(index, node.value);
+            }
             X.add(startingVertex);
             for(int i=1;i<shortestPath.length;i++){
-                int min = 1000000;
-                int cur = 0;
-                for(Edge e:edges){
-                    if(X.contains(e.tail) && !X.contains(e.head)){
-                        // crossing edges
-                        int dijkstra_greedy_score = shortestPath[e.tail-1] + e.weight;
-                        if(dijkstra_greedy_score<min){
-                            shortestPath[e.head-1] = dijkstra_greedy_score;
-                            min = dijkstra_greedy_score;
-                            cur = e.head;
+                int cur = indexToLabel.get(0);
+                shortestPath[cur-1] = heap.extract_min(labelToIndex, indexToLabel);
+                X.add(cur);
+                v = vertices.get(cur-1);
+                for(Node node:v.edges){
+                    if(!X.contains(node.value)){
+                        int dijkstra_greedy_score = shortestPath[cur-1] + node.weight;
+                        int index;
+                        if(labelToIndex.containsKey(node.value)){
+                            int key = heap.delete(labelToIndex.get(node.value), labelToIndex, indexToLabel);
+                            index = heap.insert(Math.min(key, dijkstra_greedy_score), labelToIndex, indexToLabel);
+                        }else{
+                            index = heap.insert(dijkstra_greedy_score, labelToIndex, indexToLabel);
                         }
+                        labelToIndex.put(node.value, index);
+                        indexToLabel.put(index, node.value);
                     }
                 }
-                X.add(cur);
             }
             return shortestPath;
         }
