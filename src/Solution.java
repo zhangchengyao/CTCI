@@ -1,46 +1,90 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
-public class Solution {
-    public static void main(String[] args){
-        String filename = "Median.txt";
-        MaxHeap h_low = new MaxHeap(10000);
-        MinHeap h_high = new MinHeap(10000);
-        int i = 1;
-        long median_sum = 0;
-        try{
-            BufferedReader br = new BufferedReader(new FileReader(filename));
-            String line;
-            while((line=br.readLine())!=null){
-                int val = Integer.parseInt(line);
-                if(i%2 != 0){
-                    // the number should be put into heap low
-                    if(!h_high.isEmpty() && val>h_high.get_min()){
-                        int tmp = h_high.extract_min();
-                        h_high.insert(val);
-                        h_low.insert(tmp);
-                    }else{
-                        h_low.insert(val);
-                    }
-                    i++;
-                }else{
-                    // the number should be put into heap high
-                    if(val<h_low.get_max()){
-                        int tmp = h_low.extract_max();
-                        h_low.insert(val);
-                        h_high.insert(tmp);
-                    }else{
-                        h_high.insert(val);
-                    }
-                    i++;
-                }
-                System.out.println((i-1)+": current median = " + h_low.get_max());
-                median_sum += h_low.get_max();
+class Solution{
+    static class Job{
+        int weight;
+        int length;
+        double priority;
+        Job(int weight, int length, int mode){
+            this.weight = weight;
+            this.length = length;
+            priority = (mode==1?weight-length:(weight*1.0)/length);
+        }
+        boolean biggerThan(Job job){
+            if(this.priority>job.priority){
+                return true;
+            }else if(this.priority==job.priority){
+                return this.weight>=job.weight;
+            }else{
+                return false;
             }
-        } catch (IOException e) {
+        }
+    }
+    public static void main(String[] args){
+        Solution solution = new Solution();
+        int num_jobs = 0;
+        Job[] jobs = null;
+        try{
+            BufferedReader br = new BufferedReader(new FileReader("jobs.txt"));
+            String line;
+            num_jobs = Integer.parseInt(br.readLine());
+            jobs = new Job[num_jobs];
+            int i = 0;
+            while((line=br.readLine())!=null){
+                String[] attr = line.split(" ");
+                jobs[i] = new Job(Integer.parseInt(attr[0]), Integer.parseInt(attr[1]),2);
+                i++;
+            }
+        }catch(IOException e){
             e.printStackTrace();
         }
-        System.out.println(median_sum%10000);
+        solution.quickSort(jobs, 0, num_jobs-1);
+        long sum = 0;
+        long complete_time = 0;
+        for(int i=num_jobs-1;i>=0;i--){
+            complete_time += jobs[i].length;
+            sum += jobs[i].weight * complete_time;
+        }
+        System.out.println(sum);
+    }
+    private void quickSort(Job[] jobs, int left, int right){
+        if(left>right) return;
+        Job pivot = getPivot(jobs, left, right);
+        int i = left+1;
+        int j = left+1;
+        while(i<=right){
+            if(pivot.biggerThan(jobs[i])){
+                swap(jobs, j, i);
+                j++;
+            }
+            i++;
+        }
+        swap(jobs, left, j-1);
+        quickSort(jobs, left, j-2);
+        quickSort(jobs, j, right);
+    }
+    private void swap(Job[] jobs, int x, int y){
+        Job tmp = jobs[x];
+        jobs[x] = jobs[y];
+        jobs[y] = tmp;
+    }
+    private Job getPivot(Job[] jobs, int left, int right){
+        Job pivot = median3(jobs, left, right);
+        int middle = (left+right)/2;
+        swap(jobs, left, middle);
+        return pivot;
+    }
+    private Job median3(Job[] jobs, int left, int right){
+        int middle = (left+right)/2;
+        if(jobs[left].biggerThan(jobs[middle])){
+            swap(jobs, left, middle);
+        }
+        if(jobs[left].biggerThan(jobs[right])){
+            swap(jobs, left, right);
+        }
+        if(jobs[middle].biggerThan(jobs[right])){
+            swap(jobs, middle, right);
+        }
+        return jobs[middle];
     }
 }
