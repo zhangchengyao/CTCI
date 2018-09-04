@@ -1,90 +1,91 @@
 import java.io.*;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
 
 class Solution{
-    static class Job{
-        int weight;
-        int length;
-        double priority;
-        Job(int weight, int length, int mode){
-            this.weight = weight;
-            this.length = length;
-            priority = (mode==1?weight-length:(weight*1.0)/length);
-        }
-        boolean biggerThan(Job job){
-            if(this.priority>job.priority){
-                return true;
-            }else if(this.priority==job.priority){
-                return this.weight>=job.weight;
-            }else{
-                return false;
-            }
-        }
-    }
     public static void main(String[] args){
+        HashMap<String, Integer> map = new HashMap<>();
+        int num_vertices = 0;
+        int num_bits = 0;
         Solution solution = new Solution();
-        int num_jobs = 0;
-        Job[] jobs = null;
+        int[] parent = null;
+        int[] size = null;
+        int num_cluster = 0;
         try{
-            BufferedReader br = new BufferedReader(new FileReader("jobs.txt"));
+            BufferedReader br = new BufferedReader(new FileReader("clustering_big.txt"));
+            String[] firstLine = br.readLine().split(" ");
+            num_vertices = Integer.parseInt(firstLine[0]);
+            num_bits = Integer.parseInt(firstLine[1]);
             String line;
-            num_jobs = Integer.parseInt(br.readLine());
-            jobs = new Job[num_jobs];
-            int i = 0;
+            int i = 1;
             while((line=br.readLine())!=null){
-                String[] attr = line.split(" ");
-                jobs[i] = new Job(Integer.parseInt(attr[0]), Integer.parseInt(attr[1]),2);
+                String input = line.replaceAll(" ","");
+                if(!map.containsKey(input)) map.put(input, i);
                 i++;
             }
-        }catch(IOException e){
+        }catch (IOException e){
             e.printStackTrace();
         }
-        solution.quickSort(jobs, 0, num_jobs-1);
-        long sum = 0;
-        long complete_time = 0;
-        for(int i=num_jobs-1;i>=0;i--){
-            complete_time += jobs[i].length;
-            sum += jobs[i].weight * complete_time;
+        num_cluster = map.size();
+        parent = new int[num_vertices];
+        size = new  int[num_vertices];
+        for(int i=0;i<num_vertices;i++){
+            parent[i] = i+1;
+            size[i] = 1;
         }
-        System.out.println(sum);
-    }
-    private void quickSort(Job[] jobs, int left, int right){
-        if(left>right) return;
-        Job pivot = getPivot(jobs, left, right);
-        int i = left+1;
-        int j = left+1;
-        while(i<=right){
-            if(pivot.biggerThan(jobs[i])){
-                swap(jobs, j, i);
-                j++;
+        Set<String> keys = map.keySet();
+        Iterator<String> it =keys.iterator();
+        while(it.hasNext()){
+            String cur = it.next();
+            int cur_v = map.get(cur);
+            for(int i=0;i<num_bits;i++){
+                StringBuilder tmp = new StringBuilder(cur);
+                if(tmp.charAt(i)=='1') tmp.replace(i, i+1, "0");
+                else tmp.replace(i, i+1, "1");
+                num_cluster = solution.check(map,tmp.toString(), parent, size, cur_v, num_cluster);
             }
-            i++;
+            for(int i=0;i<num_bits;i++){
+                for(int j=i+1;j<num_bits;j++){
+                    StringBuilder tmp = new StringBuilder(cur);
+                    if(tmp.charAt(i)=='1') tmp.replace(i, i+1, "0");
+                    else tmp.replace(i, i+1, "1");
+                    if(tmp.charAt(j)=='1') tmp.replace(j, j+1, "0");
+                    else tmp.replace(j, j+1, "1");
+                    num_cluster = solution.check(map,tmp.toString(), parent, size, cur_v, num_cluster);
+                }
+            }
         }
-        swap(jobs, left, j-1);
-        quickSort(jobs, left, j-2);
-        quickSort(jobs, j, right);
+        System.out.println(num_cluster);
+
     }
-    private void swap(Job[] jobs, int x, int y){
-        Job tmp = jobs[x];
-        jobs[x] = jobs[y];
-        jobs[y] = tmp;
+    private int find(int[] parent, int x){
+        while(parent[x-1]!=x){
+            parent[x-1] = parent[parent[x-1]-1];
+            x = parent[x-1];
+        }
+        return x;
     }
-    private Job getPivot(Job[] jobs, int left, int right){
-        Job pivot = median3(jobs, left, right);
-        int middle = (left+right)/2;
-        swap(jobs, left, middle);
-        return pivot;
+    private void union(int[] parent, int[] size, int x, int y){
+        int root1 = find(parent, x);
+        int root2 = find(parent, y);
+        if(root1==root2) return;
+        if(size[root1-1]>size[root2-1]){
+            parent[root2-1] = root1;
+            size[root1-1] += size[root2-1];
+        }else{
+            parent[root1-1] = root2;
+            size[root2-1] += size[root1-1];
+        }
     }
-    private Job median3(Job[] jobs, int left, int right){
-        int middle = (left+right)/2;
-        if(jobs[left].biggerThan(jobs[middle])){
-            swap(jobs, left, middle);
+    private int check(HashMap<String, Integer> map, String str, int[] parent, int[] size, int cur_v, int num_cluster){
+        if(map.containsKey(str)){
+            int v = map.get(str);
+            if(find(parent, v)!=find(parent, cur_v)){
+                union(parent, size, cur_v, v);
+                num_cluster--;
+            }
         }
-        if(jobs[left].biggerThan(jobs[right])){
-            swap(jobs, left, right);
-        }
-        if(jobs[middle].biggerThan(jobs[right])){
-            swap(jobs, middle, right);
-        }
-        return jobs[middle];
+        return num_cluster;
     }
 }
