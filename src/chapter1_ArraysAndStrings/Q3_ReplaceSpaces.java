@@ -7,6 +7,7 @@ public class Q3_ReplaceSpaces {
             if(str[i]==' ') spaceCnt++;
         }
         int idx = trueLength + spaceCnt*2 - 1;
+        str[idx+1] = '\0';
         for(int i=trueLength-1;i>=0;i--){
             if(str[i]==' '){
                 str[idx] = '0';
