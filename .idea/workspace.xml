@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q2.5">
-      <change afterPath="$PROJECT_DIR$/src/chapter2_LinkedList/Q6_Palindrome.java" afterDir="false" />
+    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q2.6">
+      <change afterPath="$PROJECT_DIR$/src/chapter2_LinkedList/Q7_Intersection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter2_LinkedList/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2_LinkedList/Test.java" afterDir="false" />
     </list>
@@ -23,24 +23,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="22" />
+          <entry key="java" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="7358" />
-          <entry key="txt" value="19" />
+          <entry key="java" value="8074" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7358" />
-          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="JAVA" value="8074" />
+          <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
     </session>
@@ -50,17 +50,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter2_LinkedList/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            <state relative-caret-position="266">
+              <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter2_LinkedList/Q6_Palindrome.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter2_LinkedList/Q7_Intersection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
+            <state>
+              <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -102,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/chapter2_LinkedList/Q4_Partition.java" />
         <option value="$PROJECT_DIR$/src/chapter2_LinkedList/Q5_SumLists.java" />
         <option value="$PROJECT_DIR$/src/chapter2_LinkedList/Q6_Palindrome.java" />
+        <option value="$PROJECT_DIR$/src/chapter2_LinkedList/Q7_Intersection.java" />
         <option value="$PROJECT_DIR$/src/chapter2_LinkedList/Test.java" />
       </list>
     </option>
@@ -151,7 +152,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545014983364" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545018223578" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -272,7 +273,7 @@
       <workItem from="1535458906459" duration="3810000" />
       <workItem from="1535776963147" duration="3456000" />
       <workItem from="1536025514984" duration="4488000" />
-      <workItem from="1544811730636" duration="25656000" />
+      <workItem from="1544811730636" duration="27328000" />
     </task>
     <task id="LOCAL-00001" summary="Q1.1">
       <created>1544814514124</created>
@@ -379,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545013677777</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Q2.6">
+      <created>1545015004153</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1545015004153</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65808000" />
+    <option name="totallyTimeSpent" value="67480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="695" extended-state="6" />
@@ -440,7 +448,8 @@
     <MESSAGE value="Q2.3" />
     <MESSAGE value="Q2.4" />
     <MESSAGE value="Q2.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q2.5" />
+    <MESSAGE value="Q2.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q2.6" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/SCC.txt" />
@@ -611,15 +620,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2_LinkedList/Q6_Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2_LinkedList/Q7_Intersection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2_LinkedList/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        <state relative-caret-position="266">
+          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
         </state>
       </provider>
     </entry>
