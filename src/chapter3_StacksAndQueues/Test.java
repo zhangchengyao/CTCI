@@ -1,13 +1,13 @@
 package chapter3_StacksAndQueues;
 
+import java.util.Stack;
+
 public class Test {
     public static void main(String[] args){
-        Q4_QueueViaStacks test = new Q4_QueueViaStacks();
-        test.enqueue(1);
-        test.enqueue(2);
-        test.enqueue(3);
-        System.out.println(test.dequeue());
-        test.enqueue(4);
-        System.out.println(test.dequeue());
+        Stack<Integer> stack = new Stack<>();
+        stack.push(5);stack.push(2);stack.push(9);stack.push(10);stack.push(4);
+        Q5_SortStack test = new Q5_SortStack();
+        test.sort(stack);
+        while(!stack.isEmpty()) System.out.println(stack.pop());
     }
 }
