@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q4.1">
-      <change afterPath="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q2_MinimalTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/TreeNode.java" afterDir="false" />
+    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q4.2">
+      <change afterPath="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q3_ListOfDepths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,24 +22,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="40" />
+          <entry key="java" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="13039" />
-          <entry key="txt" value="31" />
+          <entry key="java" value="13439" />
+          <entry key="txt" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13039" />
-          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="JAVA" value="13439" />
+          <entry key="PLAIN_TEXT" value="32" />
         </counts>
       </usages-collector>
     </session>
@@ -48,26 +47,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q2_MinimalTree.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q3_ListOfDepths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="158">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
-                <element signature="e#109#110#0" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="e#137#138#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q1_RouteBetweenNodes.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q2_MinimalTree.java" />
+        <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q3_ListOfDepths.java" />
       </list>
     </option>
   </component>
@@ -166,7 +152,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545784961313" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545786618755" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -303,7 +289,7 @@
       <workItem from="1535458906459" duration="3810000" />
       <workItem from="1535776963147" duration="3456000" />
       <workItem from="1536025514984" duration="4488000" />
-      <workItem from="1544811730636" duration="42187000" />
+      <workItem from="1544811730636" duration="43137000" />
     </task>
     <task id="LOCAL-00001" summary="Q1.1">
       <created>1544814514124</created>
@@ -473,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545784093889</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Q4.2">
+      <created>1545785602577</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1545785602577</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82339000" />
+    <option name="totallyTimeSpent" value="83289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="695" extended-state="6" />
@@ -543,7 +536,8 @@
     <MESSAGE value="Q3.5" />
     <MESSAGE value="Q3.6" />
     <MESSAGE value="Q4.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q4.1" />
+    <MESSAGE value="Q4.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q4.2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/SCC.txt" />
@@ -838,6 +832,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q2_MinimalTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#134#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -849,13 +854,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q2_MinimalTree.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q3_ListOfDepths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="158">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
