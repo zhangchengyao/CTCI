@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q4.10">
-      <change afterPath="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q11_RandomNode.java" afterDir="false" />
+    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q4.11">
+      <change afterPath="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q12_PathsWithSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,24 +22,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="52" />
+          <entry key="java" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="52" />
+          <entry key="JAVA" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="19492" />
-          <entry key="txt" value="42" />
+          <entry key="java" value="20423" />
+          <entry key="txt" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="19492" />
-          <entry key="PLAIN_TEXT" value="42" />
+          <entry key="JAVA" value="20423" />
+          <entry key="PLAIN_TEXT" value="43" />
         </counts>
       </usages-collector>
     </session>
@@ -57,10 +56,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q11_RandomNode.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q12_PathsWithSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="520">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q10_CheckSubtree.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q11_RandomNode.java" />
+        <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q12_PathsWithSum.java" />
       </list>
     </option>
   </component>
@@ -174,7 +178,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545889850852" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545931969587" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -317,7 +321,7 @@
       <workItem from="1535458906459" duration="3810000" />
       <workItem from="1535776963147" duration="3456000" />
       <workItem from="1536025514984" duration="4488000" />
-      <workItem from="1544811730636" duration="60074000" />
+      <workItem from="1544811730636" duration="63338000" />
     </task>
     <task id="LOCAL-00001" summary="Q1.1">
       <created>1544814514124</created>
@@ -550,11 +554,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545886939629</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Q4.11">
+      <created>1545890508194</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1545890508194</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100226000" />
+    <option name="totallyTimeSpent" value="103490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="695" extended-state="6" />
@@ -597,7 +608,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Q1.8" />
     <MESSAGE value="Q1.9" />
     <MESSAGE value="Q2.1" />
     <MESSAGE value="Q2.2" />
@@ -622,10 +632,10 @@
     <MESSAGE value="Q4.8" />
     <MESSAGE value="Q4.9" />
     <MESSAGE value="Q4.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q4.10" />
+    <MESSAGE value="Q4.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q4.11" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SCC_min.txt" />
     <entry file="file://$PROJECT_DIR$/dijkstraData.txt" />
     <entry file="file://$PROJECT_DIR$/test.txt" />
     <entry file="file://$PROJECT_DIR$/Median.txt" />
@@ -999,13 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1017,6 +1020,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q12_PathsWithSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
