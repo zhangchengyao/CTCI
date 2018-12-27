@@ -14,6 +14,8 @@ public class Q4_NextNumber {
             n >>>= 1;
         }
 
+        if(c0+c1==0 || c0+c1==31) return -1;
+
         int mask = 1 << (c0+c1);
         num |= mask;
 
