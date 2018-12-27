@@ -2,7 +2,8 @@ package chapter5_BitManipulation;
 
 public class Test {
     public static void main(String[] args){
-        Q3_FlipBitToWin test = new Q3_FlipBitToWin();
-        System.out.println(test.longestSeqOf1s(1775));
+        Q4_NextNumber test = new Q4_NextNumber();
+        int next=  test.getNext(13948);
+        System.out.println(next);
     }
 }
