@@ -1,4 +1,4 @@
-package chapter6_MathAndLogicalPuzzles;
+package chapter6_MathAndLogicPuzzles;
 
 public class Q9_100Lockers {
     // just need to count the number of perfect square

@@ -1,4 +1,4 @@
-package chapter6_MathAndLogicalPuzzles;
+package chapter6_MathAndLogicPuzzles;
 
 public class Test {Q7_TheApocalypse test = new Q7_TheApocalypse();
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package chapter6_MathAndLogicalPuzzles;
+package chapter6_MathAndLogicPuzzles;
 
 import java.util.ArrayList;
 import java.util.List;
