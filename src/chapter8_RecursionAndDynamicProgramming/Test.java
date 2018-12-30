@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args){
-        Q8_PermutationsWithDups test = new Q8_PermutationsWithDups();
-        System.out.println(test.permutation("aaab"));
+        Q9_Parens test = new Q9_Parens();
+        System.out.println(test.validParens(3));
     }
 }

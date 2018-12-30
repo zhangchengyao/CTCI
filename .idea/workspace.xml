@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q8.7">
-      <change afterPath="$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Q8_PermutationsWithDups.java" afterDir="false" />
+    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q8.8">
+      <change afterPath="$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Q9_Parens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Test.java" afterDir="false" />
     </list>
@@ -30,7 +30,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="78" />
+          <entry key="JAVA" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -41,19 +41,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="32007" />
-          <entry key="PLAIN_TEXT" value="64" />
+          <entry key="JAVA" value="32476" />
+          <entry key="PLAIN_TEXT" value="65" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+            <state relative-caret-position="200">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Q8_PermutationsWithDups.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Q9_Parens.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="295">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter2_LinkedList/Q3_DeleteMiddleNode.java" />
         <option value="$PROJECT_DIR$/src/chapter2_LinkedList/Q4_Partition.java" />
         <option value="$PROJECT_DIR$/src/chapter2_LinkedList/Q5_SumLists.java" />
         <option value="$PROJECT_DIR$/src/chapter2_LinkedList/Q6_Palindrome.java" />
@@ -139,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Q7_PermutationsWithoutDups.java" />
         <option value="$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Q8_PermutationsWithDups.java" />
         <option value="$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Test.java" />
+        <option value="$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Q9_Parens.java" />
       </list>
     </option>
   </component>
@@ -181,7 +181,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546149688791" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546153676442" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -346,14 +346,7 @@
       <workItem from="1535776963147" duration="3456000" />
       <workItem from="1536025514984" duration="4488000" />
       <workItem from="1544811730636" duration="79370000" />
-      <workItem from="1546025081013" duration="20643000" />
-    </task>
-    <task id="LOCAL-00005" summary="Q1.5">
-      <created>1544839536709</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1544839536709</updated>
+      <workItem from="1546025081013" duration="21993000" />
     </task>
     <task id="LOCAL-00006" summary="Q1.6">
       <created>1544841514939</created>
@@ -691,11 +684,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546148296217</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Q8.8">
+      <created>1546150023681</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1546150023681</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140165000" />
+    <option name="totallyTimeSpent" value="141515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="6" />
@@ -738,7 +738,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Q4.6" />
     <MESSAGE value="Q4.7" />
     <MESSAGE value="Q4.8" />
     <MESSAGE value="Q4.9" />
@@ -763,16 +762,10 @@
     <MESSAGE value="Q8.5" />
     <MESSAGE value="Q8.6" />
     <MESSAGE value="Q8.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q8.7" />
+    <MESSAGE value="Q8.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q8.8" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter2_LinkedList/Q5_SumLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter2_LinkedList/Q6_Palindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -1216,8 +1209,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="200">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Q9_Parens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
