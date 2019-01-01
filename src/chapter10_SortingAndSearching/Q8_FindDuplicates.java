@@ -5,7 +5,7 @@ public class Q8_FindDuplicates {
         byte[] bitVector = new byte[arr.length/8+1];
 
         for(int i: arr){
-            if(!setBitVector(bitVector, i)) System.out.println(i);
+            if(!setBitVector(bitVector, i-1)) System.out.println(i);
         }
     }
 
