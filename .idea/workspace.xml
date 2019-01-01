@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q10.8">
-      <change afterPath="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q9_SortedMatrixSearch.java" afterDir="false" />
+    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q10.9">
+      <change afterPath="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q10_RankFromStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q8_FindDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q8_FindDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,7 +30,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="94" />
+          <entry key="JAVA" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -42,31 +41,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="43802" />
-          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="JAVA" value="45095" />
+          <entry key="PLAIN_TEXT" value="80" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter10_SortingAndSearching/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="20">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q9_SortedMatrixSearch.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q10_RankFromStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="172">
+              <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
               <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Vertex.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q1_RouteBetweenNodes.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q2_MinimalTree.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q3_ListOfDepths.java" />
@@ -136,8 +133,9 @@
         <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q4_SortedSearchNoSize.java" />
         <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q5_SparseSearch.java" />
         <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q8_FindDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Test.java" />
         <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q9_SortedMatrixSearch.java" />
+        <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Test.java" />
+        <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q10_RankFromStream.java" />
       </list>
     </option>
   </component>
@@ -186,7 +184,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546302049041" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546305165898" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -339,14 +337,7 @@
       <workItem from="1536025514984" duration="4488000" />
       <workItem from="1544811730636" duration="79370000" />
       <workItem from="1546025081013" duration="33508000" />
-      <workItem from="1546210962036" duration="13906000" />
-    </task>
-    <task id="LOCAL-00018" summary="Q2.8">
-      <created>1545019273321</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1545019273321</updated>
+      <workItem from="1546210962036" duration="17027000" />
     </task>
     <task id="LOCAL-00019" summary="Q3.2">
       <created>1545766127305</created>
@@ -684,11 +675,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546288134594</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Q10.9">
+      <created>1546302060727</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1546302060727</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166936000" />
+    <option name="totallyTimeSpent" value="170057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="0" />
@@ -703,7 +701,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32673267" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32673267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -731,7 +729,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Q5.8" />
     <MESSAGE value="Q6.7" />
     <MESSAGE value="Q6.8" />
     <MESSAGE value="Q6.9" />
@@ -756,19 +753,10 @@
     <MESSAGE value="Q10.4" />
     <MESSAGE value="Q10.5" />
     <MESSAGE value="Q10.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q10.8" />
+    <MESSAGE value="Q10.9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q10.9" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q1_RouteBetweenNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q2_MinimalTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1202,8 +1190,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q9_SortedMatrixSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="636">
+          <caret line="42" column="64" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
           <folding>
             <element signature="e#282#283#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
@@ -1213,8 +1201,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter10_SortingAndSearching/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q10_RankFromStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
