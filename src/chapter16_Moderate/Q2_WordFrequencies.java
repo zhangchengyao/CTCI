@@ -3,7 +3,7 @@ package chapter16_Moderate;
 import java.util.HashMap;
 
 public class Q2_WordFrequencies {
-    HashMap<String, Integer> freq = new HashMap<>();
+    private HashMap<String, Integer> freq = new HashMap<>();
 
     int getFrequent(String[] words, String word){
         if(freq.isEmpty()) buildFreqTable(words);
