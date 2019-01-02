@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q16.4">
-      <change afterPath="$PROJECT_DIR$/src/chapter16_Moderate/Q5_FactorialZeros.java" afterDir="false" />
+    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q16.5">
+      <change afterPath="$PROJECT_DIR$/src/chapter16_Moderate/Q6_SmallestDifference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" afterDir="false" />
     </list>
@@ -30,7 +30,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="102" />
+          <entry key="JAVA" value="103" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -41,28 +41,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="48937" />
-          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="JAVA" value="49294" />
+          <entry key="PLAIN_TEXT" value="88" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="120">
+              <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q5_FactorialZeros.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q6_SmallestDifference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="321">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -82,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Test.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q8_FirstCommonAncestor.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q9_BSTSequences.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q10_CheckSubtree.java" />
@@ -131,8 +130,9 @@
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q2_WordFrequencies.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q3_Intersection.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q4_TicTacWin.java" />
-        <option value="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q5_FactorialZeros.java" />
+        <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q6_SmallestDifference.java" />
+        <option value="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" />
       </list>
     </option>
   </component>
@@ -175,7 +175,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546465218371" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546465965204" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -328,14 +328,7 @@
       <workItem from="1536025514984" duration="4488000" />
       <workItem from="1544811730636" duration="79370000" />
       <workItem from="1546025081013" duration="33508000" />
-      <workItem from="1546210962036" duration="25834000" />
-    </task>
-    <task id="LOCAL-00025" summary="Q4.2">
-      <created>1545785602577</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1545785602577</updated>
+      <workItem from="1546210962036" duration="26561000" />
     </task>
     <task id="LOCAL-00026" summary="Q4.3">
       <created>1545801953894</created>
@@ -673,11 +666,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546464207335</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Q16.5">
+      <created>1546465245547</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1546465245547</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178864000" />
+    <option name="totallyTimeSpent" value="179591000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="0" />
@@ -720,7 +720,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Q8.3" />
     <MESSAGE value="Q8.4" />
     <MESSAGE value="Q8.5" />
     <MESSAGE value="Q8.6" />
@@ -745,19 +744,10 @@
     <MESSAGE value="Q16.2" />
     <MESSAGE value="Q16.3" />
     <MESSAGE value="Q16.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q16.4" />
+    <MESSAGE value="Q16.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q16.5" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q9_BSTSequences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q10_CheckSubtree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1187,17 +1177,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q5_FactorialZeros.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q5_FactorialZeros.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q6_SmallestDifference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="321">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
         </state>
       </provider>
     </entry>

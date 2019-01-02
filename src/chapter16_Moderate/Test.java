@@ -2,7 +2,8 @@ package chapter16_Moderate;
 
 public class Test {
     public static void main(String[] args){
-        Q5_FactorialZeros test = new Q5_FactorialZeros();
-        System.out.println(test.countFacZero(6));
+        int[] A = {1,3,15,11,2};
+        int[] B = {23,127,235,19,8};
+        System.out.println(new Q6_SmallestDifference().findSmallestDiff(A, B));
     }
 }
