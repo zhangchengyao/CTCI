@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q16.13">
-      <change afterPath="$PROJECT_DIR$/src/chapter16_Moderate/Q14_BestLine.java" afterDir="false" />
+    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q16.14">
+      <change afterPath="$PROJECT_DIR$/src/chapter16_Moderate/Q15_MasterMind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,7 +30,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="111" />
+          <entry key="JAVA" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -40,31 +41,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="57577" />
-          <entry key="PLAIN_TEXT" value="97" />
+          <entry key="JAVA" value="58319" />
+          <entry key="PLAIN_TEXT" value="98" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            <state relative-caret-position="100">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q14_BestLine.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q15_MasterMind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="580">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -84,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter5_BitManipulation/Q3_FlipBitToWin.java" />
         <option value="$PROJECT_DIR$/src/chapter5_BitManipulation/Q4_NextNumber.java" />
         <option value="$PROJECT_DIR$/src/chapter5_BitManipulation/Q6_Conversion.java" />
         <option value="$PROJECT_DIR$/src/chapter5_BitManipulation/Test.java" />
@@ -129,12 +126,13 @@
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q7_NumberMax.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q8_EnglishInt.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q9_Operations.java" />
-        <option value="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q10_LivingPeople.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q11_DivingBoard.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q12_XMLEncoding.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q13_BisectSquares.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q14_BestLine.java" />
+        <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q15_MasterMind.java" />
+        <option value="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" />
       </list>
     </option>
   </component>
@@ -177,7 +175,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546496551713" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546541986844" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -330,14 +328,7 @@
       <workItem from="1536025514984" duration="4488000" />
       <workItem from="1544811730636" duration="79370000" />
       <workItem from="1546025081013" duration="33508000" />
-      <workItem from="1546210962036" duration="40700000" />
-    </task>
-    <task id="LOCAL-00034" summary="Q4.11">
-      <created>1545890508194</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1545890508194</updated>
+      <workItem from="1546210962036" duration="41946000" />
     </task>
     <task id="LOCAL-00035" summary="Q4.12">
       <created>1545932831395</created>
@@ -675,11 +666,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546494872613</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Q16.14">
+      <created>1546540610903</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1546540610903</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193730000" />
+    <option name="totallyTimeSpent" value="194976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="0" />
@@ -722,7 +720,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Q8.12" />
     <MESSAGE value="Q8.13" />
     <MESSAGE value="Q8.14" />
     <MESSAGE value="Q10.1" />
@@ -747,16 +744,10 @@
     <MESSAGE value="Q16.11" />
     <MESSAGE value="Q16.12" />
     <MESSAGE value="Q16.13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q16.13" />
+    <MESSAGE value="Q16.14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q16.14" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter5_BitManipulation/Q4_NextNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter5_BitManipulation/Q6_Conversion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1192,20 +1183,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q14_BestLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="40">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q14_BestLine.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q15_MasterMind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="580">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
