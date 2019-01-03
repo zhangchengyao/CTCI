@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q16.7">
-      <change afterPath="$PROJECT_DIR$/src/chapter16_Moderate/Q8_EnglishInt.java" afterDir="false" />
+    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q16.8">
+      <change afterPath="$PROJECT_DIR$/src/chapter16_Moderate/Q9_Operations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" afterDir="false" />
     </list>
@@ -30,7 +30,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="105" />
+          <entry key="JAVA" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -41,15 +41,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="51286" />
-          <entry key="PLAIN_TEXT" value="90" />
+          <entry key="JAVA" value="52103" />
+          <entry key="PLAIN_TEXT" value="91" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
@@ -58,11 +58,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q8_EnglishInt.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q9_Operations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="260">
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q10_CheckSubtree.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q11_RandomNode.java" />
         <option value="$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q12_PathsWithSum.java" />
@@ -132,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q6_SmallestDifference.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q7_NumberMax.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q8_EnglishInt.java" />
+        <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q9_Operations.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" />
       </list>
     </option>
@@ -175,7 +179,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546474088640" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546480444921" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -328,14 +332,7 @@
       <workItem from="1536025514984" duration="4488000" />
       <workItem from="1544811730636" duration="79370000" />
       <workItem from="1546025081013" duration="33508000" />
-      <workItem from="1546210962036" duration="30545000" />
-    </task>
-    <task id="LOCAL-00028" summary="Q4.5">
-      <created>1545805390184</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1545805390184</updated>
+      <workItem from="1546210962036" duration="32409000" />
     </task>
     <task id="LOCAL-00029" summary="Q4.6">
       <created>1545806641863</created>
@@ -673,11 +670,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546471311695</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Q16.8">
+      <created>1546474232618</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1546474232618</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183575000" />
+    <option name="totallyTimeSpent" value="185439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="0" />
@@ -720,7 +724,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Q8.6" />
     <MESSAGE value="Q8.7" />
     <MESSAGE value="Q8.8" />
     <MESSAGE value="Q8.9" />
@@ -745,16 +748,10 @@
     <MESSAGE value="Q16.5" />
     <MESSAGE value="Q16.6" />
     <MESSAGE value="Q16.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q16.7" />
+    <MESSAGE value="Q16.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q16.8" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q11_RandomNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter4_TreesAndGraphs/Q12_PathsWithSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1190,17 +1187,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q8_EnglishInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q9_Operations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q8_EnglishInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
         </state>
       </provider>
     </entry>
