@@ -40,13 +40,6 @@ public class Q22_LangtonAnt {
                 return clockwise?left:right;
             }
         }
-
-        public String toString(){
-            if(this==right) return "right";
-            else if(this==left) return "left";
-            else if(this==up) return "up";
-            else return "down";
-        }
     }
 
     class Ant{
