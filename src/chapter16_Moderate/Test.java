@@ -4,14 +4,9 @@ import java.util.HashSet;
 
 public class Test {
     public static void main(String[] args){
-        HashSet<String> dic = new HashSet<>();
-        dic.add("tree");
-        dic.add("egg");
-        dic.add("used");
-        dic.add("sad");
-        dic.add("rad");
-        Q20_T9 test = new Q20_T9();
-        System.out.println(test.getWords("8733", dic));
-        System.out.println(test.getWords("723", dic));
+        int[] a = {4,1,2,1,1,2};
+        int[] b = {3,6,3,3};
+        int[] res = new Q21_SumSwap().swapValuesFromTwoArray(b,a);
+        System.out.println(res[0]+" "+res[1]);
     }
 }
