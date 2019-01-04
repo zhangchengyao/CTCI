@@ -5,10 +5,14 @@ import java.util.List;
 
 public class Test {
     public static void main(String[] args){
-        int[] a = {4,1,2,1,1,2,2};
-        List<int[]> res = new Q24_PairsWithSum().pairSums(a, 6);
-        for(int[] item: res){
-            System.out.println(item[0]+" "+item[1]);
-        }
+        Q25_LRUCache test = new Q25_LRUCache(5);
+        test.put(1,"ou");
+        test.put(2,"op");
+        System.out.println(test.get(1));;
+        test.put(3,"lk");
+        test.put(4,"kk");
+        test.put(5,"mn");
+        test.put(6,"nb");
+        System.out.println(test.get(2));
     }
 }
