@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q16.20">
-      <change afterPath="$PROJECT_DIR$/src/chapter16_Moderate/Q21_SumSwap.java" afterDir="false" />
+    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q16.21">
+      <change afterPath="$PROJECT_DIR$/src/chapter16_Moderate/Q22_LangtonAnt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +29,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="118" />
+          <entry key="JAVA" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -41,8 +40,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="63577" />
-          <entry key="PLAIN_TEXT" value="105" />
+          <entry key="JAVA" value="65989" />
+          <entry key="PLAIN_TEXT" value="106" />
         </counts>
       </usages-collector>
     </session>
@@ -52,17 +51,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="80">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q21_SumSwap.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q22_LangtonAnt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="239">
+              <caret line="132" column="51" lean-forward="true" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
+              <folding>
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1364#1365#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter6_MathAndLogicalPuzzles/Q8_TheEggDropProblem.java" />
         <option value="$PROJECT_DIR$/src/chapter6_MathAndLogicalPuzzles/Test.java" />
         <option value="$PROJECT_DIR$/src/chapter6_MathAndLogicalPuzzles/Q9_100Lockers.java" />
         <option value="$PROJECT_DIR$/src/chapter6_MathAndLogicalPuzzles/Q10_Poison.java" />
@@ -133,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q20_T9.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Test.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q21_SumSwap.java" />
+        <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q22_LangtonAnt.java" />
       </list>
     </option>
   </component>
@@ -175,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546566448925" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546569804715" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -328,14 +333,7 @@
       <workItem from="1536025514984" duration="4488000" />
       <workItem from="1544811730636" duration="79370000" />
       <workItem from="1546025081013" duration="33508000" />
-      <workItem from="1546210962036" duration="53879000" />
-    </task>
-    <task id="LOCAL-00041" summary="Q5.7">
-      <created>1545953310700</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1545953310700</updated>
+      <workItem from="1546210962036" duration="56212000" />
     </task>
     <task id="LOCAL-00042" summary="Q5.8">
       <created>1545955209572</created>
@@ -673,11 +671,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546565025604</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Q16.21">
+      <created>1546566506262</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1546566506262</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206909000" />
+    <option name="totallyTimeSpent" value="209242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="0" />
@@ -720,7 +725,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Q10.5" />
     <MESSAGE value="Q10.8" />
     <MESSAGE value="Q10.9" />
     <MESSAGE value="Q10.10" />
@@ -745,20 +749,10 @@
     <MESSAGE value="Q16.18" />
     <MESSAGE value="Q16.19" />
     <MESSAGE value="Q16.20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q16.20" />
+    <MESSAGE value="Q16.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q16.21" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter6_MathAndLogicPuzzles/Q9_100Lockers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter6_MathAndLogicPuzzles/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1188,17 +1182,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q21_SumSwap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="100">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q21_SumSwap.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q22_LangtonAnt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="132" column="51" lean-forward="true" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
+          <folding>
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
