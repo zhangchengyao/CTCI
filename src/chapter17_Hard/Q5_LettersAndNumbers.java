@@ -15,6 +15,7 @@ public class Q5_LettersAndNumbers {
         }
 
         HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(0, -1);
         int start = 0;
         int maxLen = 0;
         for(int i=0;i<array.length;i++){
