@@ -12,8 +12,7 @@ public class Q7_BabyNames {
         for(String[] synonym: synonyms){
             String name1 = synonym[0];
             String name2 = synonym[1];
-            if(rawData.containsKey(name1) && rawData.containsKey(name2))
-                union(parent, name1, name2);
+            union(parent, name1, name2);
         }
 
         HashMap<String, Integer> res = new HashMap<>();
