@@ -2,7 +2,8 @@ package chapter17_Hard;
 
 public class Test {
     public static void main(String[] args){
-        Q4_MissingNumber test = new Q4_MissingNumber();
-        System.out.println(test.findMissingNumber(new int[]{0,1,3,4,5}));
+        char[] arr = {'a','a','1','1','a','a','1','a','1'};
+        char[] res = new Q5_LettersAndNumbers().longestSubarray(arr);
+        for(char c: res) System.out.println(c);
     }
 }
