@@ -8,7 +8,7 @@ public class Q1_AddWithoutPlus {
         int sum = a ^ b;
         int carry = (a & b) << 1;
 
-        return sum+carry;
+        return add(sum, carry);
     }
 //    int add(int a, int b){
 //        int res = 0;
