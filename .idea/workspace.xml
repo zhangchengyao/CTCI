@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q17.16">
+    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q17.16 modify">
+      <change afterPath="$PROJECT_DIR$/src/chapter17_Hard/Q18_MultiSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter17_Hard/Q16_TheMasseuse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter17_Hard/Q16_TheMasseuse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter17_Hard/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter17_Hard/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +30,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="141" />
+          <entry key="JAVA" value="142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -41,8 +41,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="84441" />
-          <entry key="PLAIN_TEXT" value="131" />
+          <entry key="JAVA" value="85811" />
+          <entry key="PLAIN_TEXT" value="139" />
         </counts>
       </usages-collector>
     </session>
@@ -52,17 +52,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+            <state relative-caret-position="100">
+              <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q16_TheMasseuse.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q18_MultiSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="250">
+              <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q4_SortedSearchNoSize.java" />
         <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q5_SparseSearch.java" />
         <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q8_FindDuplicates.java" />
         <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q9_SortedMatrixSearch.java" />
@@ -132,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/chapter17_Hard/Q14_SmallestK.java" />
         <option value="$PROJECT_DIR$/src/chapter17_Hard/Q15_LongestWord.java" />
         <option value="$PROJECT_DIR$/src/chapter17_Hard/Q16_TheMasseuse.java" />
+        <option value="$PROJECT_DIR$/src/chapter17_Hard/Q18_MultiSearch.java" />
         <option value="$PROJECT_DIR$/src/chapter17_Hard/Test.java" />
       </list>
     </option>
@@ -175,7 +182,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546799570277" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546803243039" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -203,20 +210,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Test (1)">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter17_Hard.Test" />
-      <module name="CTCI" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter17_Hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter5_BitManipulation.Test" />
       <module name="CTCI" />
@@ -266,6 +259,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chapter16_Moderate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17_Hard.Test" />
+      <module name="CTCI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter17_Hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -328,14 +335,7 @@
       <workItem from="1536025514984" duration="4488000" />
       <workItem from="1544811730636" duration="79370000" />
       <workItem from="1546025081013" duration="33508000" />
-      <workItem from="1546210962036" duration="95560000" />
-    </task>
-    <task id="LOCAL-00063" summary="Q10.3">
-      <created>1546282816656</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1546282816656</updated>
+      <workItem from="1546210962036" duration="98240000" />
     </task>
     <task id="LOCAL-00064" summary="Q10.4">
       <created>1546283666568</created>
@@ -673,11 +673,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546798179259</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Q17.16 modify">
+      <created>1546799599578</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1546799599578</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248590000" />
+    <option name="totallyTimeSpent" value="251270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="0" />
@@ -692,7 +699,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32673267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -720,7 +727,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Q16.18" />
     <MESSAGE value="Q16.19" />
     <MESSAGE value="Q16.20" />
     <MESSAGE value="Q16.21" />
@@ -745,16 +751,10 @@
     <MESSAGE value="Q17.14" />
     <MESSAGE value="Q17.15" />
     <MESSAGE value="Q17.16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q17.16" />
+    <MESSAGE value="Q17.16 modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q17.16 modify" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q4_SortedSearchNoSize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q5_SparseSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1177,10 +1177,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q18_MultiSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state relative-caret-position="100">
+          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
         </state>
       </provider>
     </entry>
