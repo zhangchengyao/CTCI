@@ -4,11 +4,9 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args){
-        String[] T = {"i","is","pp","ms"};
-        HashMap<String, List<Integer>> res = new Q17_MultiSearch().searchAll("mississippi", T);
-        for(Map.Entry<String, List<Integer>> entry: res.entrySet()){
-            System.out.print(entry.getKey()+": ");
-            System.out.println(entry.getValue());
-        }
+        int[] shorter = {1,5,9};
+        int[] longer= {7,1,5,9};//{7,5,9,0,2,1,3,5,7,9,1,1,5,8,8,9,7};
+        int[] res = new Q18_ShortestSupersequence().shortestSupersequence(shorter, longer);
+        System.out.println(res[0]+" "+res[1]);
     }
 }
