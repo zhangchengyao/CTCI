@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q17.11">
-      <change afterPath="$PROJECT_DIR$/src/chapter17_Hard/Q12_BiNode.java" afterDir="false" />
+    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q17.12">
+      <change afterPath="$PROJECT_DIR$/src/chapter17_Hard/Q13_ReSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter17_Hard/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter17_Hard/Test.java" afterDir="false" />
     </list>
@@ -30,7 +30,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="137" />
+          <entry key="JAVA" value="138" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -41,8 +41,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="79917" />
-          <entry key="PLAIN_TEXT" value="126" />
+          <entry key="JAVA" value="81318" />
+          <entry key="PLAIN_TEXT" value="127" />
         </counts>
       </usages-collector>
     </session>
@@ -52,25 +52,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="220">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q12_BiNode.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q13_ReSpace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="129">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
               <folding>
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Q14_BooleanEvaluation.java" />
         <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q1_SortedMerge.java" />
         <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q2_GroupAnagrams.java" />
         <option value="$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q3_SearchInRotatedArray.java" />
@@ -141,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/chapter17_Hard/Q10_MajorityElement.java" />
         <option value="$PROJECT_DIR$/src/chapter17_Hard/Q11_WordDistance.java" />
         <option value="$PROJECT_DIR$/src/chapter17_Hard/Q12_BiNode.java" />
+        <option value="$PROJECT_DIR$/src/chapter17_Hard/Q13_ReSpace.java" />
         <option value="$PROJECT_DIR$/src/chapter17_Hard/Test.java" />
       </list>
     </option>
@@ -184,7 +178,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546741535412" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546745475270" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -337,14 +331,7 @@
       <workItem from="1536025514984" duration="4488000" />
       <workItem from="1544811730636" duration="79370000" />
       <workItem from="1546025081013" duration="33508000" />
-      <workItem from="1546210962036" duration="86095000" />
-    </task>
-    <task id="LOCAL-00058" summary="Q8.12">
-      <created>1546199393210</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1546199393210</updated>
+      <workItem from="1546210962036" duration="88983000" />
     </task>
     <task id="LOCAL-00059" summary="Q8.13">
       <created>1546205717754</created>
@@ -682,11 +669,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546728436546</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="Q17.12">
+      <created>1546741564690</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1546741564690</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239125000" />
+    <option name="totallyTimeSpent" value="242013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="0" />
@@ -701,7 +695,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289256" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32673267" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32673267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -729,7 +723,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Q16.13" />
     <MESSAGE value="Q16.14" />
     <MESSAGE value="Q16.15" />
     <MESSAGE value="Q16.16" />
@@ -754,19 +747,10 @@
     <MESSAGE value="Q17.9" />
     <MESSAGE value="Q17.10" />
     <MESSAGE value="Q17.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q17.11" />
+    <MESSAGE value="Q17.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q17.12" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter8_RecursionAndDynamicProgramming/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter10_SortingAndSearching/Q1_SortedMerge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1176,8 +1160,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q12_BiNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="20">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding>
             <element signature="e#203#204#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
@@ -1187,13 +1171,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q13_ReSpace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="129">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
