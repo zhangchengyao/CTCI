@@ -9,7 +9,7 @@ public class Q18_ShortestSupersequence {
         for(int num: shorter) set.add(num);
 
         HashSet<Integer> seen = new HashSet<>();
-        int minLeft = 0;
+        int minLeft = -1;
         int minLen = longer.length;
         int left = 0;
         int right = 0;
