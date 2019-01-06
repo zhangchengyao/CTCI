@@ -4,10 +4,14 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args){
-        Q19_MissingTwo test = new Q19_MissingTwo();
-        int[] res = test.missingTwo(new int[]{3,5,4,6});
-        for(int i: res){
-            System.out.println(i);
-        }
+        Q20_ContinuousMedian test = new Q20_ContinuousMedian();
+        test.insert(1);
+        System.out.println(test.getMedian());
+        test.insert(3);
+        System.out.println(test.getMedian());
+        test.insert(8);
+        System.out.println(test.getMedian());
+        test.insert(5);
+        System.out.println(test.getMedian());
     }
 }
