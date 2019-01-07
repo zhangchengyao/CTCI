@@ -6,7 +6,10 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args){
-        Q22_WordTransformer test = new Q22_WordTransformer();
-        System.out.println(test.transform("DAMP","LIKE",Arrays.asList("fasj","lajf","MDIE","DAMP","LIKE","LIMP","LAMP","LIME","DOEO")));
+        int[][] matrix = {{0,1,0},{1,1,0},{1,1,0}};
+        int[][] res = new Q23_MaxSquareMatrix().findSquare(matrix);
+        for(int[] point: res){
+            System.out.println(point[0]+" "+point[1]);
+        }
     }
 }
