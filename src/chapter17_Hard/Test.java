@@ -4,14 +4,8 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args){
-        Q20_ContinuousMedian test = new Q20_ContinuousMedian();
-        test.insert(1);
-        System.out.println(test.getMedian());
-        test.insert(3);
-        System.out.println(test.getMedian());
-        test.insert(8);
-        System.out.println(test.getMedian());
-        test.insert(5);
-        System.out.println(test.getMedian());
+        Q21_VolumeOfHistogram test = new Q21_VolumeOfHistogram();
+        int[] a = {0,0,4,0,0,6,0,0,3,0,5,0,1,0,0,0};
+        System.out.println(test.volumeOfHistogram(a));
     }
 }
