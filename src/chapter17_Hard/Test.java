@@ -6,10 +6,15 @@ import java.util.*;
 
 public class Test {
     public static void main(String[] args){
-        int[][] matrix = {{9,-8,1,3,-2},{-3,7,6,-2,4},{6,-4,-4,8,-7}};
-        int[][] res = new Q24_MaxSubmatrix().maxSum2D(matrix);
-        for(int[] point: res){
-            System.out.println(point[0]+" "+point[1]);
+        List<Q26_SparseSimilarity.Document> input = new ArrayList<>();
+        input.add(new Q26_SparseSimilarity.Document(Arrays.asList(14,15,100,9,3), 13));
+        input.add(new Q26_SparseSimilarity.Document(Arrays.asList(32,1,5,9,3), 16));
+        input.add(new Q26_SparseSimilarity.Document(Arrays.asList(15,29,2,6,8,7), 19));
+        input.add(new Q26_SparseSimilarity.Document(Arrays.asList(7,10), 24));
+
+        List<Q26_SparseSimilarity.DocPair> res = new Q26_SparseSimilarity().computeSimilarities(input);
+        for(Q26_SparseSimilarity.DocPair pair: res){
+            System.out.println(pair.doc1+", "+pair.doc2+" : "+pair.similarity);
         }
     }
 }

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q17.23">
-      <change afterPath="$PROJECT_DIR$/src/chapter17_Hard/Q24_MaxSubmatrix.java" afterDir="false" />
+    <list default="true" id="0b95f4d2-fa30-4591-86b2-189a336bf370" name="Default" comment="Q17.24">
+      <change afterPath="$PROJECT_DIR$/src/chapter17_Hard/Q25_WordRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17_Hard/Q26_SparseSimilarity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chapter17_Hard/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter17_Hard/Test.java" afterDir="false" />
     </list>
@@ -30,7 +31,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="150" />
+          <entry key="JAVA" value="152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -41,8 +42,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="93678" />
-          <entry key="PLAIN_TEXT" value="148" />
+          <entry key="JAVA" value="96093" />
+          <entry key="PLAIN_TEXT" value="149" />
         </counts>
       </usages-collector>
     </session>
@@ -52,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            <state relative-caret-position="247">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,10 +63,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q24_MaxSubmatrix.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q26_SparseSimilarity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="248">
+              <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+              <folding>
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q3_Intersection.java" />
-        <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q4_TicTacWin.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q5_FactorialZeros.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q6_SmallestDifference.java" />
         <option value="$PROJECT_DIR$/src/chapter16_Moderate/Q7_NumberMax.java" />
@@ -134,8 +137,10 @@
         <option value="$PROJECT_DIR$/src/chapter17_Hard/Q21_VolumeOfHistogram.java" />
         <option value="$PROJECT_DIR$/src/chapter17_Hard/Q22_WordTransformer.java" />
         <option value="$PROJECT_DIR$/src/chapter17_Hard/Q23_MaxSquareMatrix.java" />
-        <option value="$PROJECT_DIR$/src/chapter17_Hard/Test.java" />
         <option value="$PROJECT_DIR$/src/chapter17_Hard/Q24_MaxSubmatrix.java" />
+        <option value="$PROJECT_DIR$/src/chapter17_Hard/Q25_WordRectangle.java" />
+        <option value="$PROJECT_DIR$/src/chapter17_Hard/Test.java" />
+        <option value="$PROJECT_DIR$/src/chapter17_Hard/Q26_SparseSimilarity.java" />
       </list>
     </option>
   </component>
@@ -178,7 +183,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546895656646" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546925428751" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -331,14 +336,7 @@
       <workItem from="1536025514984" duration="4488000" />
       <workItem from="1544811730636" duration="79370000" />
       <workItem from="1546025081013" duration="33508000" />
-      <workItem from="1546210962036" duration="114741000" />
-    </task>
-    <task id="LOCAL-00071" summary="Q16.2">
-      <created>1546455023227</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1546455023227</updated>
+      <workItem from="1546210962036" duration="118479000" />
     </task>
     <task id="LOCAL-00072" summary="Q16.3">
       <created>1546457370853</created>
@@ -676,11 +674,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546889935628</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="Q17.24">
+      <created>1546895682770</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1546895682770</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="267771000" />
+    <option name="totallyTimeSpent" value="271509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="698" extended-state="0" />
@@ -723,7 +728,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Q16.26" />
     <MESSAGE value="Q17.1" />
     <MESSAGE value="Q17.2" />
     <MESSAGE value="Q17.3" />
@@ -748,27 +752,10 @@
     <MESSAGE value="Q17.21" />
     <MESSAGE value="Q17.22" />
     <MESSAGE value="Q17.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q17.23" />
+    <MESSAGE value="Q17.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q17.24" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q2_WordFrequencies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q3_Intersection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter16_Moderate/Q4_TicTacWin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -1170,20 +1157,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q24_MaxSubmatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q25_WordRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q24_MaxSubmatrix.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter17_Hard/Q26_SparseSimilarity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="248">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
